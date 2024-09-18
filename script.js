@@ -106,7 +106,7 @@ btnHold.addEventListener('click',function(){
 
     //2.Check if player's score is >= 100;
     //if so then they finish the game
-    if(scores[activePlayer]>=30){
+    if(scores[activePlayer]>=100){
         playing = false //we stop playing
         diceEl.classList.add('hidden'); //removing the dice photo
         document.querySelector(`.player--${activePlayer}`).classList.add('player--winner')
